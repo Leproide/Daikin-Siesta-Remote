@@ -296,4 +296,4 @@ Protocol reverse-engineered by pulse-level capture and differential analysis of 
 
 ## License
 
-GPL v2
+GPL v3
