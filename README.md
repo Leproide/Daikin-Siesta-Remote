@@ -2,6 +2,8 @@
 
 Control your **Daikin Siesta** air conditioner **locally** over your LAN (no cloud, no internet required) through a cheap Tuya-compatible IR hub. Includes a fully reverse-engineered Daikin Siesta IR protocol implementation in pure Python, a desktop remote-control GUI, and a CLI for automation.
 
+<img width="371" height="1003" alt="Daikin_Remote" src="https://github.com/user-attachments/assets/89d23499-330c-489c-97a8-684d785a92a5" />
+
 ## Why?
 
 Daikin Siesta splits don't come with Wi-Fi natively. Official smart-control options require cloud-connected IR blasters (SmartLife / Tuya app) that depend on Chinese servers, online accounts, and an internet connection. This project cuts all of that out: commands travel directly from your PC to the IR hub over your local network.
