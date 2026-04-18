@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific — contains personal configurations
+daikin_presets.json
+ir_codes.json
+ir_codes_generated.json
+
+# tinytuya output from the setup wizard (contains local keys!)
+devices.json
+tuya-raw.json
+snapshot.json
+tinytuya.json
+
+# Anything with 'secret', 'credentials', or 'local_key' in the name
+*secret*
+*credentials*
+*local_key*
